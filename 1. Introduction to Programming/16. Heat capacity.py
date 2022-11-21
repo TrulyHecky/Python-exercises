@@ -7,7 +7,7 @@ d_temp = float(input("Temperature rise (in Celcius): "))
 
 q = volume * d_temp * WATER_HEAT_CAPACITY
 
-print(f"Needed energy: {q}")
+print(f"Needed energy: {q} J")
 
 kwh = q * J_TO_KWH
 cost = kwh * ELECTRICITY_PRICE
